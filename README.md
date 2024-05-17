@@ -1,6 +1,6 @@
 # Search App
 
-![Search App](public/search-app-image.jpg)
+![Search App](public/SearchApp.PNG)
 
 The Search App allows users to search for articles based on keywords or phrases and highlights the matched text in the search results.
 
