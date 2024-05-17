@@ -11,4 +11,21 @@ The Search App allows users to search for articles based on keywords or phrases 
 Clone the Search App repository from GitHub to your local machine:
 
 ```bash
-git clone 
+git clone https://github.com/khaldoun18/search-app.git
+
+
+### 2. Navigate to the project directory
+
+
+```bash
+cd search-app
+
+
+### 4. Install Dependencies
+```bash
+git clone https://github.com/khaldoun18/search-app.git
+npm install
+
+### 5. Access the Search App
+```bash
+npm run dev
