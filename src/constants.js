@@ -3,7 +3,7 @@ const articles = [
         id:1,
         header: "First article Post",
         date: "Aug 09,2018",
-        description: "This is the description of the first article post."
+        description: "This is the description of the first article post.This is the description of the first article post.This is the description of the first article post"
     },
     {
         id:2,

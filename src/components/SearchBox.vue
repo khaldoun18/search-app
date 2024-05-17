@@ -7,7 +7,7 @@
     </div>
     <p  v-if="query"><span class='font-bold'>{{ filteredArticles.length }} {{ filteredArticles.length === 1 ? 'post' : 'posts' }}</span>{{ filteredArticles.length === 1 ? ' was' : ' where' }} found</p>
     <div v-if="query">
-      <div class='mt-16 article' v-for="blog in filteredArticles" :key="blog.id" >
+      <div class='mt-16 article sm:w-[600px] w-full' v-for="blog in filteredArticles" :key="blog.id" >
         <h3 class='mb-1 text-2xl font-bold' v-html="highlight(blog.header)"></h3>
         <p class='mb-2 font-normal' v-html="highlight(blog.date)"></p>
         <p v-html="highlight(blog.description)"></p>
